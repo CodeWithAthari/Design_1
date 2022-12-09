@@ -104,13 +104,13 @@ class PopularAdapter(var list: ArrayList<PopularData>, val context: Context) :
                 mRating3.setImageResource(R.drawable.ic_rating_selected)
                 mRating4.setImageResource(R.drawable.ic_rating_unselected)
                 mRating5.setImageResource(R.drawable.ic_rating_unselected)
-            } else if (rating in 6..7) {
+            } else if (rating in 6..8) {
                 mRating1.setImageResource(R.drawable.ic_rating_selected)
                 mRating2.setImageResource(R.drawable.ic_rating_selected)
                 mRating3.setImageResource(R.drawable.ic_rating_selected)
                 mRating4.setImageResource(R.drawable.ic_rating_selected)
                 mRating5.setImageResource(R.drawable.ic_rating_unselected)
-            } else if (rating in 8..10) {
+            } else if (rating in 9..10) {
                 mRating1.setImageResource(R.drawable.ic_rating_selected)
                 mRating2.setImageResource(R.drawable.ic_rating_selected)
                 mRating3.setImageResource(R.drawable.ic_rating_selected)
